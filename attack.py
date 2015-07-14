@@ -74,20 +74,20 @@ def find_password(username, password_length):
     return current_password
 
 
-# if __name__ == "__main__":
-#     print "Finding username..."
-#     username = find_username()
-#     print "Username found is: " + username
-#     print
-#
-#     print "Finding password length..."
-#     length = find_password_length(username)
-#     print "Password length is: " + str(length)
-#     print
-#
-#     print "Finding password characters..."
-#     password = find_password(username, length)
-#     print "Password is: " + password
-#     print
-#
-#     print "(" + username + ", " + password + ") ? " + str(validate(username, password))
+if __name__ == "__main__":
+    print "Finding username..."
+    username = find_username()
+    print "Username found is: " + username
+    print
+
+    print "Finding password length..."
+    length = find_password_length(username)
+    print "Password length is: " + str(length)
+    print
+
+    print "Finding password characters..."
+    password = find_password(username, length)
+    print "Password is: " + password
+    print
+
+    print "(" + username + ", " + password + ") ? " + str(validate(username, password))
